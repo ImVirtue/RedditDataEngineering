@@ -22,7 +22,7 @@ The pipeline is designed to:
 ## Architecture
 ![RedditDataEngineering.png](assets%2FRedditDataEngineering.png)
 1. **Reddit API**: Source of the data.
-2. **Apache Airflow & Celery**: Orchestrates the ETL process and manages task distribution.
+2. **Apache Airflow**: Orchestrates the ETL process and manages task distribution.
 3. **PostgreSQL**: Temporary storage and metadata management.
 4. **Amazon S3**: Raw data storage.
 5. **AWS Glue**: Data cataloging and ETL jobs.
